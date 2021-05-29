@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    background-color: red;
+}
+
+label {
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.line {
+    text-align: center;
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin-left: 625px;
+    margin-right: 625px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section {
+    text-align: center;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+img {
+    border-radius: 50%;
+    z-index: 9;
+}
+
+p {
+    max-width: 500px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.menu {
+    float: right;
+    position: fixed;
+    z-index: 10;
+    list-style: none;
+}
+
+.link {
+    color: red;
+    padding-left: 20px;
+    padding-right: 7px;
+    display: inline;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link:hover {
+    background-color: aqua;
+}
+
+a {
+    text-align-last: none;
+}
+
+#myfavouritebook {
+    background-color: wheat;
+}
